@@ -1,0 +1,92 @@
+body{
+    background-image: url("dog-silhouettes-vector-shapes5.jpg");
+    background-repeat: repeat;
+
+}
+
+
+#start_button {
+    background-color: #ffd353;
+    width: 400px;
+    height: 160px;
+    border-radius: 25px;
+    -moz-box-shadow:    inset 0 0 45px #f79f2c;
+    -webkit-box-shadow: inset 0 0 45px #f79f2c;
+    box-shadow:         inset 0 0 45px #f79f2c;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #aa9b9b;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 200px;
+
+}
+.start {
+font-family: 'Modak', cursive;
+color: black;
+font-size: 125px;
+background: -webkit-linear-gradient(#4a5fe2, #0925da);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: whitesmoke;
+text-align: center;
+
+}
+
+#start_button:hover {
+    background-color: #f79f2c;
+}
+
+
+#question_div {
+    background-color: #ffd353;
+    width: 600px;
+    height: 320px;
+    border-radius: 25px;
+    margin-left: 325px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+   
+#timer {
+    margin-left: 550px;
+    margin-top: -20px;
+}
+#choices_div {
+    margin-top: -150px;
+    margin-left: 370px;
+}
+.correct {
+    margin-left: 580px;
+
+}
+.incorrect{
+    margin-left: 580px;
+}
+
+.answers {
+    background: -webkit-linear-gradient(#4a5fe2, #0925da);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #aa9b9b;
+    text-align: center;
+    border-radius: 25px;
+    height: 60px;
+    width: 100px;
+    color: white;
+    margin-left: 25px;
+    
+    
+
+}
+
+.answers:hover {
+    background: -webkit-linear-gradient(#9eb9ff, #9eb9ff);
+
+}
+
+
+
